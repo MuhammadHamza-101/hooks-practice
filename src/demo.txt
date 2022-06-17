@@ -1,0 +1,64 @@
+// const reducer = (state, action) => {
+//   switch (action.type) {
+//     case "Increment":
+//       return { count: state.count + 1 };
+//     // case "TextValue":
+//     //   return { text: state.text = "" }
+//     default:
+//       return state;
+//   }
+// };
+
+//  useState hook
+
+// let [counter, setCounter] = useState(0)
+// const [text, setText] = useState("type Hurry!")
+
+// const [state, dispatch] = useReducer(reducer, { count: 0, text: "hamza" })
+
+//functions
+
+// let Increment = () => {
+//   counter = counter + 1
+//   setCounter(counter)
+
+// }
+
+// let onChange = (e) => {
+//   setText(e.target.value)
+//   // console.log()
+// }
+
+//render component
+
+//use reducer hook
+
+//use Effect hook
+// import axios from "axios";
+//
+// const [data, setData] = useState();
+
+// useEffect(() => {
+//   axios.get("https://jsonplaceholder.typicode.com/comments").then((res) => {
+//     setData(res.data[0]);
+//     console.log(res.data[0]);
+//     console.log("api was called");
+//   });
+// }, []);
+
+//useRef Hook
+
+// const inputRef = useRef(null);
+// const onClick = () => {
+//   inputRef.current.focus();
+//   console.log(inputRef.current.value);
+//   inputRef.current.value = "";
+// };
+
+{/* <div>
+        <input placeholder="write something " ref={inputRef}></input>
+        <button onClick={onClick}>change name</button>
+      </div> */}
+
+//useRef Hook
+
